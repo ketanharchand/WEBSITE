@@ -1,0 +1,160 @@
+
+*{
+  box-sizing: border-box;
+}
+/*all the box sizing is boder-box*/
+.logo
+{
+  display: inline-block;
+}
+/*main logo*/
+.logo-size{
+    width: 200px;
+    height: 125px;
+    margin-top: 3em;
+}
+/*setting size of logo*/
+.headertext
+{
+  color: #7d97ad;
+}
+/*setting color of featured work text*/
+h1 {
+    font-family: cursive;
+    margin-bottom: 5px;
+    font-size: 3em;
+    color:#2d3c49;
+}
+/*setting h1*/
+h3 {
+    font-family: inherit;
+    font-size: 0.7em;
+    margin-top: 0.5em;
+    color: #2d3c49  ;
+}
+/*setting h3*/
+.headhr
+{
+  margin-top: 0.7em;
+  border-top: 0.4em solid #7d97ad;
+  height:5px;
+}
+/*setting h4*/
+.htmlimage
+{height: 400px;
+ width:1150px;
+ max-width: 100%;
+}
+/*setting html main big image*/
+.images {
+    margin-bottom: 1em;
+}
+/*giving margin to all the images*/
+.names
+{
+  text-align: center;
+  color:#2d3c49;
+}
+/*setting the names of all featured-images*/
+.container {
+    margin-top: 1em;
+}
+/*setting bootstrap container margin*/
+.frame-size
+{
+  width: 350px;
+  height:300px;
+}
+/*setting sizes of featured images*/
+.feature-frames {
+    padding-left: 2em;
+    border-bottom: 0.1em solid #bcbbbb;
+}
+/*giving border and padding to featured-images*/
+.background{
+  background-image:url("background.jpg");
+  width:500px;height:500px;
+}
+
+.back{
+  background-image:url("bg1.jpg") ;
+  background-repeat: no-repeat;
+   
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headtext{
+  color:white;
+}
+/*nav bar*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+.gspot{
+  font-size: large;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+}
